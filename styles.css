@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#register {
+    width: 800px;
+    height: 450px;
+    margin: 139px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 5px #ccc;
+}
+
+
+/* Right Section */
+.right {
+    float: right;
+    height: 100%;
+    width: 60%;
+    border-radius: 0 20px 20px 0;
+
+}
+
+
+/* Left Section */
+
+.left {
+    float: left;
+    height: 100%;
+    width: 40%;
+    border-radius: 20px 0 0 20px;
+    padding-top: 120px;
+    text-align: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    color: #fff;
+
+}
+
+
+.left p {
+    font-size: 18px;
+    margin: auto;
+    padding-top: 10px;
+    line-height: 28px;
+}
+
+.left .sign-btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 7px 15px;
+    border-radius: 12px;
+    color: #fff;
+    margin-top: 24px;
+    display: inline-block;
+    transition: 0.25s;
+
+}
+
+.left .sign-btn:hover{
+    background: #fff;
+    color: black;
+    transition: 0.25s;
+}
+
