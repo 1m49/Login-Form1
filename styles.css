@@ -67,3 +67,57 @@ body {
     transition: 0.25s;
 }
 
+/* Right Section */
+
+#register .right {
+    /* background-color: green; */
+    width: 60%;
+    float: right;
+    height: 100%;
+    border-radius:  0 20px 20px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#register .right h2 {
+    color: #0097A7;
+    margin-bottom: 30px;
+}
+
+#register .form .input {
+    width: 70%;
+    border: none;
+    margin-top: 10px;
+    background-color: #EEEEEE;
+    padding: 15px 15px 15px 40px;
+    border-radius: 3px;
+}
+
+#register .form .input:focus{
+    background-color: #E0E0E0;
+}
+
+#register .form .signup-btn{
+    margin-top: 20px;
+    padding: 15px 50px;
+    border-radius: 50px;
+    border: 1px solid #0097A7;
+    background-color: #0097A7;
+    color: #fff;
+    transition: 0.25s;
+}
+
+#register .form .signup-btn:hover{
+    border: 1px solid #0097A7;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+}
+
+#register .form .input-logo {
+    width: 20px;
+    position: relative;
+    top: 5px;
+    left: 35px;
+    opacity: 0.5;
+}
